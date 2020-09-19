@@ -1,0 +1,39 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+html{
+  height: 100%;
+}
+body {
+  font-family: 'GothamPro';
+  font-weight: 400;
+  background-color: #F5F6FB;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+h1, h2, h3,
+h4, h5, h6,
+p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
